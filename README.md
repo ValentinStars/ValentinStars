@@ -66,6 +66,6 @@
   <h2>
     <img src="https://i.giphy.com/MIGbtLZoVjbl0bYbAd.webp" width="25px"> Contact Me
   </h2>
-  <a href="https://t.me/wind_fuse" target="_blank">
+  <a href="https://t.me/VSTBio" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
