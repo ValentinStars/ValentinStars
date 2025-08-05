@@ -1,6 +1,6 @@
 <!-- About Me Section --><div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00d9ff&height=120&section=header"/>  <!-- Profile Header -->  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00d9ff&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Valentin+Stars!;Hardware+%7C+Firmware+%7C+Reverse+Engineering+Enthusiast" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00d9ff&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Valentin+Stars;Hardware+%7C+Firmware+%7C+Reverse+Engineering+Enthusiast" alt="Typing SVG" />
   </a>  <h2 align="center">
     <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20px"> A little about me
   </h2>  <div align="center">
