@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/badge/🧠%20Focus-Pentest_&_Low_Level_Hacking-blue?style=for-the-badge" />
     <img src="https://img.shields.io/badge/⚙️%20Languages-Python%2C%20C%2C%20C%2B%2B%2C%20ASM%2C%20Lua-blue?style=for-the-badge" />
     <br />
-    <a href="https://0c.md" target="_blank">
+    <a href="https://vstdev.online" target="_blank">
       <img src="https://img.shields.io/badge/🌐%20Website-0c.md-00d9ff?style=for-the-badge" />
     </a>
   </div>
