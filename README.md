@@ -1,59 +1,80 @@
-# Hi, I'm Valentin Stars
-
-I’m a self-taught developer who’s obsessed with figuring out how computers tick—down to the metal. Think hardware, firmware, and the guts of architecture. I geek out over stuff like BIOS/UEFI internals, Super I/O chips, LPC buses, and even reverse-engineering PC motherboards. It’s not just about poking at things until they break (though I’m guilty of that)—it’s about *getting* how it all works.
-
-I bounce between languages like **Lua, Python, Bash, ASM, C, C++, HTML, CSS, and JavaScript**, depending on what I’m messing with. Right now, I’m digging deeper into **C++** to write slicker, faster code for system-level projects—because who doesn’t love a performance boost?
-
-High-level scripting like Python or Lua is my go-to for quick tools or automation, but my heart’s really in the low-level world—writing assembly or C to talk straight to the hardware. Web stuff? I dabble when I need to (think APIs or bot interfaces), but I’d rather be elbows-deep in a machine’s internals any day.
-
----
-
-# Stuff I’ve Built
-
-I love tinkering—some of my projects are practical tools I use all the time, others are just me experimenting and learning. Here’s a peek at what I’ve been up to:
-
-### Low-Level & Firmware Goodies
-- **BIOS/Flash Dumper Toolchain**  
-  A little setup I made to read, write, and tweak SPI flash chips using microcontrollers. Perfect for anyone into firmware hacking—or just breaking into their own hardware.  
-- **Assembly Bootloader Experiments**  
-  Me trying to write x86 boot code from the ground up. It’s been a wild ride learning how BIOS does its thing—super satisfying when it actually boots!  
-- **Super I/O Probe**  
-  A script I whipped up to sniff out and decode Super I/O chip registers. If you’re into retro hardware, this one’s a lifesaver.  
-
-### Bots & Fun APIs
-- **Multi-Platform Bot Framework**  
-  I built this to reuse code across Discord, Telegram, and WhatsApp bots. Keeps things simple when you’re juggling multiple chat platforms.  
-- **Minecraft Player API**  
-  A neat API that grabs user data, avatars, and server details for Minecraft players. It’s a fun mashup of my gaming and coding sides.  
-- **Moderation + Entertainment Bot**  
-  A Discord bot packed with admin tools and silly commands. It’s been a blast learning bot dev while keeping server chaos in check.  
-
-### Hardware & Embedded Experiments
-- **Bare-metal Arduino/ESP32 Projects**  
-  Me playing with low-level timing, memory, and port control—no libraries, just raw code. Great for getting cozy with embedded systems.  
-- **Custom Protocol over GPIO**  
-  A quirky experiment with bitbanging and timing-sensitive data over GPIO pins. Niche? Sure. Fun? Absolutely.  
-
----
-
-# What I’m Learning Next
-
-I’m always chasing something new to wrap my head around. Here’s what’s on my radar right now:  
-- Getting better at **C++** for systems programming—faster, tighter code is the goal.  
-- Digging into **PC buses** like LPC, SPI, and SMBus—key stuff for hardware hacking.  
-- Figuring out how to write **custom firmware** for PC parts—tough, but so cool.  
-- Sharpening my skills at **reversing binary formats**—it’s like cracking a code, and I’m hooked.  
-- Exploring **ethical hacking and security**—using my powers for good to make tech safer.  
-
----
-
-# How I Roll
-
-> "Know the machine, control the machine."  
-
-I’m all about learning by doing. Sure, tutorials are nice, but I’d rather rip something apart, poke at it, and build it back my way—even if it’s messy or crashes a few times. That’s how you *really* understand tech. I love questioning everything, experimenting like crazy, and ending up with something that’s mine, quirks and all.
-
-<!---
-ValentinStars/ValentinStars is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!-- About Me Section --><div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00d9ff&height=120&section=header"/>  <!-- Profile Header -->  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00d9ff&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Valentin+Stars!;Hardware+%7C+Firmware+%7C+Reverse+Engineering+Enthusiast" alt="Typing SVG" />
+  </a>  <h2 align="center">
+    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20px"> A little about me
+  </h2>  <div align="center">
+    <img src="https://img.shields.io/badge/🌍%20Location-Kazakhstan-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🧠%20Focus-Low_Level_Hacking-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/⚙️%20Languages-Python%2C%20C%2C%20C%2B%2B%2C%20ASM%2C%20Lua-blue?style=for-the-badge" />
+    <br />
+    <a href="https://0c.md" target="_blank">
+      <img src="https://img.shields.io/badge/🌐%20Website-0c.md-00d9ff?style=for-the-badge" />
+    </a>
+  </div>
+</div><!-- Skills Section --><div align="center">
+  <h2>
+    <img src="https://i.giphy.com/iY8CRBdQXODJSCERIr.webp" width="25px"> My Tech Stack
+  </h2>
+  <p>
+    <img alt="Lua" src="https://img.shields.io/badge/Lua-000080?style=for-the-badge&logo=lua&logoColor=white" />
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
+    <img alt="Assembly" src="https://img.shields.io/badge/ASM-555555?style=for-the-badge" />
+    <img alt="C" src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+    <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+    <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  </p>
+</div><!-- Projects Section --><div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="25px"> Stuff I’ve Built
+  </h2>
+  <ul align="left">
+    <li><strong>BIOS/Flash Dumper Toolchain:</strong> Custom tools to dump/edit SPI flash chips via microcontrollers.</li>
+    <li><strong>Assembly Bootloader Experiments:</strong> Writing bootloaders from scratch to understand x86 BIOS.</li>
+    <li><strong>Super I/O Probe:</strong> A script to sniff/decode Super I/O registers for retro hardware.</li>
+    <li><strong>Multi-Platform Bot Framework:</strong> Shared bot core for Discord, Telegram, WhatsApp.</li>
+    <li><strong>Minecraft Player API:</strong> Gathers Minecraft player data and server info.</li>
+    <li><strong>Moderation + Fun Bot:</strong> Admin commands + entertainment for Discord servers.</li>
+    <li><strong>Arduino/ESP32 Bare-metal Projects:</strong> Pure register-level control with no libraries.</li>
+    <li><strong>Custom GPIO Protocol:</strong> Bitbanging data over GPIO just for fun and timing tests.</li>
+  </ul>
+</div><!-- Learning Section --><div align="center">
+  <h2>
+    <img src="https://i.giphy.com/3o7abKhOpu0NwenH3O.webp" width="25px"> What I’m Learning
+  </h2>
+  <ul align="left">
+    <li>Mastering <strong>C++</strong> for low-level speed and structure.</li>
+    <li>Exploring <strong>PC buses</strong>: LPC, SPI, SMBus.</li>
+    <li>Working on <strong>custom firmware</strong> for motherboards.</li>
+    <li>Diving into <strong>reverse engineering</strong> and binary analysis.</li>
+    <li>Ethical hacking and security exploration for system hardening.</li>
+  </ul>
+</div><!-- Philosophy Section --><div align="center">
+  <h2>
+    🧩 How I Roll
+  </h2>
+  <blockquote>
+    "Know the machine, control the machine."
+  </blockquote>
+  <p>
+    I learn by breaking, fixing, and experimenting. Tutorials help—but nothing beats tearing into the guts of tech, making a mess, and building something new from the wreckage. That's how you really understand it.
+  </p>
+</div><!-- Contact Section --><div align="center">
+  <h2>
+    <img src="https://i.giphy.com/MIGbtLZoVjbl0bYbAd.webp" width="25px"> Contact Me
+  </h2>
+  <a href="https://t.me/wind_fuse" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
+  </a>
+</div><!-- GitHub Stats --><div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="25px"> GitHub Stats
+  </h2>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rxflex&show_icons=true&theme=tokyonight&border_color=00d9ff&border_radius=10" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rxflex&theme=tokyonight&border=00d9ff&border_radius=10" />
+</div><!-- Footer --><div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00d9ff&height=120&section=footer"/>
+</div>
