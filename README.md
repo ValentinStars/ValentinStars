@@ -5,7 +5,7 @@
     <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20px"> A little about me
   </h2>  <div align="center">
     <img src="https://img.shields.io/badge/🌍%20Location-Kazakhstan-blue?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🧠%20Focus-Low_Level_Hacking-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🧠%20Focus-Pentest_&_Low_Level_Hacking-blue?style=for-the-badge" />
     <img src="https://img.shields.io/badge/⚙️%20Languages-Python%2C%20C%2C%20C%2B%2B%2C%20ASM%2C%20Lua-blue?style=for-the-badge" />
     <br />
     <a href="https://0c.md" target="_blank">
@@ -69,12 +69,3 @@
   <a href="https://t.me/wind_fuse" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-</div><!-- GitHub Stats --><div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="25px"> GitHub Stats
-  </h2>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=rxflex&show_icons=true&theme=tokyonight&border_color=00d9ff&border_radius=10" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=rxflex&theme=tokyonight&border=00d9ff&border_radius=10" />
-</div><!-- Footer --><div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=00d9ff&height=120&section=footer"/>
-</div>
