@@ -52,6 +52,8 @@
     <li>Diving into <strong>reverse engineering</strong> and binary analysis.</li>
     <li>Ethical hacking and security exploration for system hardening.</li>
   </ul>
+</div><!-- Statistics --><div align="center">
+  ![](https://komarev.com/ghpvc/?username=valentinstars)
 </div><!-- Philosophy Section --><div align="center">
   <h2>
     🧩 How I Roll
