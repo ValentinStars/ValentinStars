@@ -11,6 +11,7 @@
     <a href="https://vstdev.online" target="_blank">
       <img src="https://img.shields.io/badge/🌐%20Website-vstdev.online-00d9ff?style=for-the-badge" />
     </a>
+    ![](https://komarev.com/ghpvc/?username=valentinstars)
   </div>
 </div><!-- Skills Section --><div align="center">
   <h2>
@@ -52,8 +53,6 @@
     <li>Diving into <strong>reverse engineering</strong> and binary analysis.</li>
     <li>Ethical hacking and security exploration for system hardening.</li>
   </ul>
-</div><!-- Statistics --><div align="center">
-  ![](https://komarev.com/ghpvc/?username=valentinstars)
 </div><!-- Philosophy Section --><div align="center">
   <h2>
     🧩 How I Roll
