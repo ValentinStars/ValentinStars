@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/badge/⚙️%20Languages-Python%2C%20C%2C%20C%2B%2B%2C%20ASM%2C%20Lua-blue?style=for-the-badge" />
     <a href="https://vst.m1nercloud.ru" target="_blank">
       <img src="https://img.shields.io/badge/🌐%20Website-vst.m1nercloud.ru-00d9ff?style=for-the-badge" />
+      <img src="https://komarev.com/ghpvc/?username=valentinstars&style=for-the-badge" />
     </a>
   </div>
 </div><!-- Skills Section --><div align="center">
