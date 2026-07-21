@@ -5,10 +5,10 @@
     <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="20px"> A little about me
   </h2>  <div align="center">
     <img src="https://img.shields.io/badge/🌍%20Location-Serbia-blue?style=for-the-badge" />
-    <img src="https://img.shields.io/badge/🧠%20Focus-Pentest_&_Low_Level_Hacking-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/🧠%20Focus-Pentest_&_Low_Level_Programming-blue?style=for-the-badge" />
     <img src="https://img.shields.io/badge/⚙️%20Languages-Python%2C%20C%2C%20C%2B%2B%2C%20ASM%2C%20Lua-blue?style=for-the-badge" />
-    <a href="https://vstdev.online" target="_blank">
-      <img src="https://img.shields.io/badge/🌐%20Website-vstdev.online-00d9ff?style=for-the-badge" />
+    <a href="https://vst.m1nercloud.ru" target="_blank">
+      <img src="https://img.shields.io/badge/🌐%20Website-vst.m1nercloud.ru-00d9ff?style=for-the-badge" />
     </a>
   </div>
 </div><!-- Skills Section --><div align="center">
@@ -42,8 +42,8 @@
     <img src="https://i.giphy.com/3o7abKhOpu0NwenH3O.webp" width="25px"> Learning at the moment 
   </h2>
   <ul align="left">
-    <li>Mastering <strong>C++</strong> Unreal Enigme, Qt6</li>
-    <li>Exploring <strong>Linux Kernel</strong>: Writing custom drivers for ARM architecture</li>
+    <li>Mastering <strong>C++</strong> Unreal Enigme, Qt6, PlatformIO</li>
+    <li>Exploring <strong>Linux Kernel</strong>: Writing custom drivers for ARM/X86 architecture</li>
     <li>Working on <strong>custom firmware</strong> for E ECU.</li>
     <li>Diving into <strong>reverse engineering</strong> and binary analysis.</li>
     <li>Ethical hacking and security exploration.</li>
