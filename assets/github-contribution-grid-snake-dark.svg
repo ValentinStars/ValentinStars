@@ -1,405 +1,406 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 180" width="840" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="840" height="160">
 <defs>
-  <linearGradient id="snake-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#00f5ff"/>
-    <stop offset="100%" stop-color="#ff0055"/>
+  <linearGradient id="snake-body-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#e30b5c"/>
+    <stop offset="100%" stop-color="#8a1236"/>
   </linearGradient>
   <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur stdDeviation="2" result="blur" />
+    <feGaussianBlur stdDeviation="1.5" result="blur" />
     <feComposite in="SourceGraphic" in2="blur" operator="over" />
   </filter>
 </defs>
 <style>
-  .bg { fill: #0d1117; rx: 8px; }
+  .bg { fill: #0d1117; rx: 6px; }
   .grid-bg { fill: #161b22; rx: 2px; }
-  .lvl-1 { fill: #0e4429; rx: 2px; }
-  .lvl-2 { fill: #006d32; rx: 2px; }
-  .lvl-3 { fill: #00d9ff; rx: 2px; filter: drop-shadow(0 0 2px #00d9ff); }
-  .lvl-4 { fill: #ff0055; rx: 2px; filter: drop-shadow(0 0 3px #ff0055); }
-  .snake-head { fill: #00f5ff; filter: url(#glow); }
-  .snake-body { fill: url(#snake-grad); }
-  .snake-eye { fill: #ffffff; }
-  .title { fill: #58a6ff; font-family: 'Fira Code', monospace, sans-serif; font-size: 11px; font-weight: bold; }
-  .legend { fill: #8b949e; font-family: 'Fira Code', monospace, sans-serif; font-size: 9px; }
+  .lvl-1 { fill: #21262d; rx: 2px; }
+  .lvl-2 { fill: #4a1525; rx: 2px; }
+  .lvl-3 { fill: #8a1236; rx: 2px; }
+  .lvl-4 { fill: #c51a4a; rx: 2px; }
+  .legend { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace, sans-serif; font-size: 10px; }
 </style>
-<rect width="100%" height="100%" class="bg" stroke="#30363d" stroke-width="1" rx="8" />
-<text x="35" y="22" class="title">VALENTIN_STARS // CONTRIBUTION_GRID_SNAKE.EXE</text>
+<rect width="100%" height="100%" class="bg" stroke="#30363d" stroke-width="1" rx="6" />
 
-<rect x="35" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="35" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="35" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="35" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="35" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="35" y="110" width="11" height="11" class="lvl-1"/>
-<rect x="35" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="50" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="50" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="65" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="65" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="80" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="80" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="80" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="80" y="80" width="11" height="11" class="lvl-3"/>
-<rect x="80" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="80" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="80" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="95" y="35" width="11" height="11" class="lvl-2"/>
-<rect x="95" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="95" y="65" width="11" height="11" class="lvl-1"/>
-<rect x="95" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="95" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="95" y="110" width="11" height="11" class="lvl-4"/>
-<rect x="95" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="110" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="110" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="110" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="110" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="110" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="110" y="110" width="11" height="11" class="lvl-1"/>
-<rect x="110" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="125" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="140" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="140" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="155" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="155" y="50" width="11" height="11" class="lvl-1"/>
-<rect x="155" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="155" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="155" y="95" width="11" height="11" class="lvl-4"/>
-<rect x="155" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="155" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="170" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="170" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="170" y="65" width="11" height="11" class="lvl-1"/>
-<rect x="170" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="170" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="170" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="170" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="185" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="185" y="50" width="11" height="11" class="lvl-3"/>
-<rect x="185" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="185" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="185" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="185" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="185" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="200" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="200" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="215" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="215" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="215" y="65" width="11" height="11" class="lvl-4"/>
-<rect x="215" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="215" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="215" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="215" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="230" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="230" y="50" width="11" height="11" class="lvl-1"/>
-<rect x="230" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="230" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="230" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="230" y="110" width="11" height="11" class="lvl-4"/>
-<rect x="230" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="245" y="35" width="11" height="11" class="lvl-4"/>
-<rect x="245" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="245" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="245" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="245" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="245" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="245" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="260" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="260" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="260" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="260" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="260" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="260" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="260" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="275" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="275" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="275" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="275" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="275" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="275" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="275" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="290" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="290" y="50" width="11" height="11" class="lvl-1"/>
-<rect x="290" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="290" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="290" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="290" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="290" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="305" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="305" y="50" width="11" height="11" class="lvl-3"/>
-<rect x="305" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="305" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="305" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="305" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="305" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="320" y="35" width="11" height="11" class="lvl-3"/>
-<rect x="320" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="320" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="320" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="320" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="320" y="110" width="11" height="11" class="lvl-1"/>
-<rect x="320" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="335" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="335" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="350" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="350" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="350" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="350" y="80" width="11" height="11" class="lvl-4"/>
-<rect x="350" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="350" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="350" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="365" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="380" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="380" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="380" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="380" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="380" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="380" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="380" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="395" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="395" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="395" y="65" width="11" height="11" class="lvl-3"/>
-<rect x="395" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="395" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="395" y="110" width="11" height="11" class="lvl-1"/>
-<rect x="395" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="410" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="410" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="410" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="410" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="410" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="410" y="110" width="11" height="11" class="lvl-1"/>
-<rect x="410" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="425" y="35" width="11" height="11" class="lvl-4"/>
-<rect x="425" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="425" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="425" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="425" y="95" width="11" height="11" class="lvl-2"/>
-<rect x="425" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="425" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="440" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="440" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="455" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="455" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="455" y="65" width="11" height="11" class="lvl-4"/>
-<rect x="455" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="455" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="455" y="110" width="11" height="11" class="lvl-3"/>
-<rect x="455" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="470" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="470" y="125" width="11" height="11" class="lvl-4"/>
-<rect x="485" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="485" y="50" width="11" height="11" class="lvl-1"/>
-<rect x="485" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="485" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="485" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="485" y="110" width="11" height="11" class="lvl-4"/>
-<rect x="485" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="500" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="500" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="500" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="500" y="80" width="11" height="11" class="lvl-3"/>
-<rect x="500" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="500" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="500" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="515" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="515" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="515" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="515" y="80" width="11" height="11" class="lvl-2"/>
-<rect x="515" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="515" y="110" width="11" height="11" class="lvl-3"/>
-<rect x="515" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="530" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="530" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="530" y="65" width="11" height="11" class="lvl-1"/>
-<rect x="530" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="530" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="530" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="530" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="545" y="110" width="11" height="11" class="lvl-3"/>
-<rect x="545" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="560" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="560" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="560" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="560" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="560" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="560" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="560" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="575" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="575" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="575" y="65" width="11" height="11" class="lvl-4"/>
-<rect x="575" y="80" width="11" height="11" class="lvl-4"/>
-<rect x="575" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="575" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="575" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="590" y="35" width="11" height="11" class="lvl-3"/>
-<rect x="590" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="590" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="590" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="590" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="590" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="590" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="605" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="605" y="50" width="11" height="11" class="lvl-4"/>
-<rect x="605" y="65" width="11" height="11" class="lvl-1"/>
-<rect x="605" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="605" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="605" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="605" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="620" y="35" width="11" height="11" class="lvl-3"/>
-<rect x="620" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="620" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="620" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="620" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="620" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="620" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="635" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="635" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="635" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="635" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="635" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="635" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="635" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="650" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="650" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="650" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="650" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="650" y="95" width="11" height="11" class="lvl-1"/>
-<rect x="650" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="650" y="125" width="11" height="11" class="grid-bg"/>
-<rect x="665" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="665" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="665" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="665" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="665" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="665" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="665" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="680" y="35" width="11" height="11" class="grid-bg"/>
-<rect x="680" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="680" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="680" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="680" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="680" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="680" y="125" width="11" height="11" class="lvl-2"/>
-<rect x="695" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="695" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="695" y="65" width="11" height="11" class="lvl-2"/>
-<rect x="695" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="695" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="695" y="110" width="11" height="11" class="grid-bg"/>
-<rect x="695" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="710" y="35" width="11" height="11" class="lvl-2"/>
-<rect x="710" y="50" width="11" height="11" class="grid-bg"/>
-<rect x="710" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="710" y="80" width="11" height="11" class="grid-bg"/>
-<rect x="710" y="95" width="11" height="11" class="lvl-3"/>
-<rect x="710" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="710" y="125" width="11" height="11" class="lvl-4"/>
-<rect x="725" y="35" width="11" height="11" class="lvl-1"/>
-<rect x="725" y="50" width="11" height="11" class="lvl-2"/>
-<rect x="725" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="725" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="725" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="725" y="110" width="11" height="11" class="lvl-3"/>
-<rect x="725" y="125" width="11" height="11" class="lvl-1"/>
-<rect x="740" y="35" width="11" height="11" class="lvl-2"/>
-<rect x="740" y="50" width="11" height="11" class="lvl-1"/>
-<rect x="740" y="65" width="11" height="11" class="grid-bg"/>
-<rect x="740" y="80" width="11" height="11" class="lvl-1"/>
-<rect x="740" y="95" width="11" height="11" class="grid-bg"/>
-<rect x="740" y="110" width="11" height="11" class="lvl-2"/>
-<rect x="740" y="125" width="11" height="11" class="lvl-2"/>
+<rect x="30" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="30" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="30" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="30" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="30" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="30" y="95" width="10" height="10" class="lvl-2"/>
+<rect x="30" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="44" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="44" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="44" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="44" y="67" width="10" height="10" class="lvl-4"/>
+<rect x="44" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="44" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="44" y="109" width="10" height="10" class="lvl-3"/>
+<rect x="58" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="58" y="39" width="10" height="10" class="lvl-2"/>
+<rect x="58" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="58" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="58" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="58" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="58" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="72" y="25" width="10" height="10" class="lvl-2"/>
+<rect x="72" y="39" width="10" height="10" class="lvl-2"/>
+<rect x="72" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="72" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="72" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="72" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="72" y="109" width="10" height="10" class="lvl-3"/>
+<rect x="86" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="86" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="86" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="86" y="67" width="10" height="10" class="lvl-3"/>
+<rect x="86" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="86" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="86" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="100" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="100" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="114" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="114" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="114" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="114" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="114" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="114" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="114" y="109" width="10" height="10" class="lvl-3"/>
+<rect x="128" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="128" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="128" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="128" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="128" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="128" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="128" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="142" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="142" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="142" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="142" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="142" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="142" y="95" width="10" height="10" class="lvl-4"/>
+<rect x="142" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="156" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="156" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="156" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="156" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="156" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="156" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="156" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="170" y="25" width="10" height="10" class="lvl-2"/>
+<rect x="170" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="170" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="170" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="170" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="170" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="170" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="184" y="95" width="10" height="10" class="lvl-2"/>
+<rect x="184" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="198" y="25" width="10" height="10" class="lvl-3"/>
+<rect x="198" y="39" width="10" height="10" class="lvl-2"/>
+<rect x="198" y="53" width="10" height="10" class="lvl-2"/>
+<rect x="198" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="198" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="198" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="198" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="212" y="25" width="10" height="10" class="lvl-3"/>
+<rect x="212" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="212" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="212" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="212" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="212" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="212" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="226" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="226" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="226" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="226" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="226" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="226" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="226" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="240" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="240" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="240" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="240" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="240" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="240" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="240" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="254" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="254" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="254" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="254" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="254" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="254" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="254" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="268" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="268" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="268" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="268" y="67" width="10" height="10" class="lvl-3"/>
+<rect x="268" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="268" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="268" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="282" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="282" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="282" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="282" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="282" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="282" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="282" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="296" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="296" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="296" y="53" width="10" height="10" class="lvl-2"/>
+<rect x="296" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="296" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="296" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="296" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="310" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="310" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="310" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="310" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="310" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="310" y="95" width="10" height="10" class="lvl-2"/>
+<rect x="310" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="324" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="324" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="324" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="324" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="324" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="324" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="324" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="338" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="338" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="338" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="338" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="338" y="81" width="10" height="10" class="lvl-2"/>
+<rect x="338" y="95" width="10" height="10" class="lvl-3"/>
+<rect x="338" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="352" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="352" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="352" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="352" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="352" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="352" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="352" y="109" width="10" height="10" class="lvl-4"/>
+<rect x="366" y="25" width="10" height="10" class="lvl-3"/>
+<rect x="366" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="366" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="366" y="67" width="10" height="10" class="lvl-3"/>
+<rect x="366" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="366" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="366" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="380" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="380" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="380" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="380" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="380" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="380" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="380" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="394" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="394" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="394" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="394" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="394" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="394" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="394" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="408" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="408" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="408" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="408" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="408" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="408" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="408" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="422" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="422" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="422" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="422" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="422" y="81" width="10" height="10" class="lvl-3"/>
+<rect x="422" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="422" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="436" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="436" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="450" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="450" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="450" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="450" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="450" y="81" width="10" height="10" class="lvl-3"/>
+<rect x="450" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="450" y="109" width="10" height="10" class="lvl-3"/>
+<rect x="464" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="464" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="464" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="464" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="464" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="464" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="464" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="478" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="478" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="478" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="478" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="478" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="478" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="478" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="492" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="492" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="492" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="492" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="492" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="492" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="492" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="506" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="506" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="506" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="506" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="506" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="506" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="506" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="520" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="520" y="39" width="10" height="10" class="lvl-4"/>
+<rect x="520" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="520" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="520" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="520" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="520" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="534" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="534" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="534" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="534" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="534" y="81" width="10" height="10" class="lvl-3"/>
+<rect x="534" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="534" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="548" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="548" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="548" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="548" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="548" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="548" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="548" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="562" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="562" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="562" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="562" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="562" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="562" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="562" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="576" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="576" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="576" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="576" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="576" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="576" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="576" y="109" width="10" height="10" class="lvl-4"/>
+<rect x="590" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="590" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="590" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="590" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="590" y="81" width="10" height="10" class="lvl-4"/>
+<rect x="590" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="590" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="604" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="604" y="39" width="10" height="10" class="lvl-3"/>
+<rect x="604" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="604" y="67" width="10" height="10" class="lvl-4"/>
+<rect x="604" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="604" y="95" width="10" height="10" class="lvl-1"/>
+<rect x="604" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="618" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="618" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="618" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="618" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="618" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="618" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="618" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="632" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="632" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="632" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="632" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="632" y="81" width="10" height="10" class="lvl-2"/>
+<rect x="632" y="95" width="10" height="10" class="lvl-2"/>
+<rect x="632" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="53" width="10" height="10" class="lvl-3"/>
+<rect x="646" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="646" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="660" y="25" width="10" height="10" class="lvl-2"/>
+<rect x="660" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="660" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="660" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="660" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="660" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="660" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="674" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="674" y="39" width="10" height="10" class="lvl-1"/>
+<rect x="674" y="53" width="10" height="10" class="lvl-1"/>
+<rect x="674" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="674" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="674" y="95" width="10" height="10" class="lvl-3"/>
+<rect x="674" y="109" width="10" height="10" class="lvl-1"/>
+<rect x="688" y="25" width="10" height="10" class="grid-bg"/>
+<rect x="688" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="688" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="688" y="67" width="10" height="10" class="lvl-2"/>
+<rect x="688" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="688" y="95" width="10" height="10" class="lvl-3"/>
+<rect x="688" y="109" width="10" height="10" class="grid-bg"/>
+<rect x="702" y="25" width="10" height="10" class="lvl-1"/>
+<rect x="702" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="702" y="53" width="10" height="10" class="lvl-3"/>
+<rect x="702" y="67" width="10" height="10" class="grid-bg"/>
+<rect x="702" y="81" width="10" height="10" class="grid-bg"/>
+<rect x="702" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="702" y="109" width="10" height="10" class="lvl-2"/>
+<rect x="716" y="25" width="10" height="10" class="lvl-3"/>
+<rect x="716" y="39" width="10" height="10" class="grid-bg"/>
+<rect x="716" y="53" width="10" height="10" class="grid-bg"/>
+<rect x="716" y="67" width="10" height="10" class="lvl-1"/>
+<rect x="716" y="81" width="10" height="10" class="lvl-1"/>
+<rect x="716" y="95" width="10" height="10" class="grid-bg"/>
+<rect x="716" y="109" width="10" height="10" class="grid-bg"/>
 
-<path id="snake-track" d="M 40.5,40.5 L 40.5,55.5 L 40.5,70.5 L 40.5,85.5 L 40.5,100.5 L 40.5,115.5 L 40.5,130.5 L 55.5,130.5 L 55.5,115.5 L 55.5,100.5 L 55.5,85.5 L 55.5,70.5 L 55.5,55.5 L 55.5,40.5 L 70.5,40.5 L 70.5,55.5 L 70.5,70.5 L 70.5,85.5 L 70.5,100.5 L 70.5,115.5 L 70.5,130.5 L 85.5,130.5 L 85.5,115.5 L 85.5,100.5 L 85.5,85.5 L 85.5,70.5 L 85.5,55.5 L 85.5,40.5 L 100.5,40.5 L 100.5,55.5 L 100.5,70.5 L 100.5,85.5 L 100.5,100.5 L 100.5,115.5 L 100.5,130.5 L 115.5,130.5 L 115.5,115.5 L 115.5,100.5 L 115.5,85.5 L 115.5,70.5 L 115.5,55.5 L 115.5,40.5 L 130.5,40.5 L 130.5,55.5 L 130.5,70.5 L 130.5,85.5 L 130.5,100.5 L 130.5,115.5 L 130.5,130.5 L 145.5,130.5 L 145.5,115.5 L 145.5,100.5 L 145.5,85.5 L 145.5,70.5 L 145.5,55.5 L 145.5,40.5 L 160.5,40.5 L 160.5,55.5 L 160.5,70.5 L 160.5,85.5 L 160.5,100.5 L 160.5,115.5 L 160.5,130.5 L 175.5,130.5 L 175.5,115.5 L 175.5,100.5 L 175.5,85.5 L 175.5,70.5 L 175.5,55.5 L 175.5,40.5 L 190.5,40.5 L 190.5,55.5 L 190.5,70.5 L 190.5,85.5 L 190.5,100.5 L 190.5,115.5 L 190.5,130.5 L 205.5,130.5 L 205.5,115.5 L 205.5,100.5 L 205.5,85.5 L 205.5,70.5 L 205.5,55.5 L 205.5,40.5 L 220.5,40.5 L 220.5,55.5 L 220.5,70.5 L 220.5,85.5 L 220.5,100.5 L 220.5,115.5 L 220.5,130.5 L 235.5,130.5 L 235.5,115.5 L 235.5,100.5 L 235.5,85.5 L 235.5,70.5 L 235.5,55.5 L 235.5,40.5 L 250.5,40.5 L 250.5,55.5 L 250.5,70.5 L 250.5,85.5 L 250.5,100.5 L 250.5,115.5 L 250.5,130.5 L 265.5,130.5 L 265.5,115.5 L 265.5,100.5 L 265.5,85.5 L 265.5,70.5 L 265.5,55.5 L 265.5,40.5 L 280.5,40.5 L 280.5,55.5 L 280.5,70.5 L 280.5,85.5 L 280.5,100.5 L 280.5,115.5 L 280.5,130.5 L 295.5,130.5 L 295.5,115.5 L 295.5,100.5 L 295.5,85.5 L 295.5,70.5 L 295.5,55.5 L 295.5,40.5 L 310.5,40.5 L 310.5,55.5 L 310.5,70.5 L 310.5,85.5 L 310.5,100.5 L 310.5,115.5 L 310.5,130.5 L 325.5,130.5 L 325.5,115.5 L 325.5,100.5 L 325.5,85.5 L 325.5,70.5 L 325.5,55.5 L 325.5,40.5 L 340.5,40.5 L 340.5,55.5 L 340.5,70.5 L 340.5,85.5 L 340.5,100.5 L 340.5,115.5 L 340.5,130.5 L 355.5,130.5 L 355.5,115.5 L 355.5,100.5 L 355.5,85.5 L 355.5,70.5 L 355.5,55.5 L 355.5,40.5 L 370.5,40.5 L 370.5,55.5 L 370.5,70.5 L 370.5,85.5 L 370.5,100.5 L 370.5,115.5 L 370.5,130.5 L 385.5,130.5 L 385.5,115.5 L 385.5,100.5 L 385.5,85.5 L 385.5,70.5 L 385.5,55.5 L 385.5,40.5 L 400.5,40.5 L 400.5,55.5 L 400.5,70.5 L 400.5,85.5 L 400.5,100.5 L 400.5,115.5 L 400.5,130.5 L 415.5,130.5 L 415.5,115.5 L 415.5,100.5 L 415.5,85.5 L 415.5,70.5 L 415.5,55.5 L 415.5,40.5 L 430.5,40.5 L 430.5,55.5 L 430.5,70.5 L 430.5,85.5 L 430.5,100.5 L 430.5,115.5 L 430.5,130.5 L 445.5,130.5 L 445.5,115.5 L 445.5,100.5 L 445.5,85.5 L 445.5,70.5 L 445.5,55.5 L 445.5,40.5 L 460.5,40.5 L 460.5,55.5 L 460.5,70.5 L 460.5,85.5 L 460.5,100.5 L 460.5,115.5 L 460.5,130.5 L 475.5,130.5 L 475.5,115.5 L 475.5,100.5 L 475.5,85.5 L 475.5,70.5 L 475.5,55.5 L 475.5,40.5 L 490.5,40.5 L 490.5,55.5 L 490.5,70.5 L 490.5,85.5 L 490.5,100.5 L 490.5,115.5 L 490.5,130.5 L 505.5,130.5 L 505.5,115.5 L 505.5,100.5 L 505.5,85.5 L 505.5,70.5 L 505.5,55.5 L 505.5,40.5 L 520.5,40.5 L 520.5,55.5 L 520.5,70.5 L 520.5,85.5 L 520.5,100.5 L 520.5,115.5 L 520.5,130.5 L 535.5,130.5 L 535.5,115.5 L 535.5,100.5 L 535.5,85.5 L 535.5,70.5 L 535.5,55.5 L 535.5,40.5 L 550.5,40.5 L 550.5,55.5 L 550.5,70.5 L 550.5,85.5 L 550.5,100.5 L 550.5,115.5 L 550.5,130.5 L 565.5,130.5 L 565.5,115.5 L 565.5,100.5 L 565.5,85.5 L 565.5,70.5 L 565.5,55.5 L 565.5,40.5 L 580.5,40.5 L 580.5,55.5 L 580.5,70.5 L 580.5,85.5 L 580.5,100.5 L 580.5,115.5 L 580.5,130.5 L 595.5,130.5 L 595.5,115.5 L 595.5,100.5 L 595.5,85.5 L 595.5,70.5 L 595.5,55.5 L 595.5,40.5 L 610.5,40.5 L 610.5,55.5 L 610.5,70.5 L 610.5,85.5 L 610.5,100.5 L 610.5,115.5 L 610.5,130.5 L 625.5,130.5 L 625.5,115.5 L 625.5,100.5 L 625.5,85.5 L 625.5,70.5 L 625.5,55.5 L 625.5,40.5 L 640.5,40.5 L 640.5,55.5 L 640.5,70.5 L 640.5,85.5 L 640.5,100.5 L 640.5,115.5 L 640.5,130.5 L 655.5,130.5 L 655.5,115.5 L 655.5,100.5 L 655.5,85.5 L 655.5,70.5 L 655.5,55.5 L 655.5,40.5 L 670.5,40.5 L 670.5,55.5 L 670.5,70.5 L 670.5,85.5 L 670.5,100.5 L 670.5,115.5 L 670.5,130.5 L 685.5,130.5 L 685.5,115.5 L 685.5,100.5 L 685.5,85.5 L 685.5,70.5 L 685.5,55.5 L 685.5,40.5 L 700.5,40.5 L 700.5,55.5 L 700.5,70.5 L 700.5,85.5 L 700.5,100.5 L 700.5,115.5 L 700.5,130.5 L 715.5,130.5 L 715.5,115.5 L 715.5,100.5 L 715.5,85.5 L 715.5,70.5 L 715.5,55.5 L 715.5,40.5 L 730.5,40.5 L 730.5,55.5 L 730.5,70.5 L 730.5,85.5 L 730.5,100.5 L 730.5,115.5 L 730.5,130.5 L 745.5,130.5 L 745.5,115.5 L 745.5,100.5 L 745.5,85.5 L 745.5,70.5 L 745.5,55.5 L 745.5,40.5" fill="none" stroke="none" />
+<path id="snake-track" d="M 35.0,30.0 L 35.0,44.0 L 35.0,58.0 L 35.0,72.0 L 35.0,86.0 L 35.0,100.0 L 35.0,114.0 L 49.0,114.0 L 49.0,100.0 L 49.0,86.0 L 49.0,72.0 L 49.0,58.0 L 49.0,44.0 L 49.0,30.0 L 63.0,30.0 L 63.0,44.0 L 63.0,58.0 L 63.0,72.0 L 63.0,86.0 L 63.0,100.0 L 63.0,114.0 L 77.0,114.0 L 77.0,100.0 L 77.0,86.0 L 77.0,72.0 L 77.0,58.0 L 77.0,44.0 L 77.0,30.0 L 91.0,30.0 L 91.0,44.0 L 91.0,58.0 L 91.0,72.0 L 91.0,86.0 L 91.0,100.0 L 91.0,114.0 L 105.0,114.0 L 105.0,100.0 L 105.0,86.0 L 105.0,72.0 L 105.0,58.0 L 105.0,44.0 L 105.0,30.0 L 119.0,30.0 L 119.0,44.0 L 119.0,58.0 L 119.0,72.0 L 119.0,86.0 L 119.0,100.0 L 119.0,114.0 L 133.0,114.0 L 133.0,100.0 L 133.0,86.0 L 133.0,72.0 L 133.0,58.0 L 133.0,44.0 L 133.0,30.0 L 147.0,30.0 L 147.0,44.0 L 147.0,58.0 L 147.0,72.0 L 147.0,86.0 L 147.0,100.0 L 147.0,114.0 L 161.0,114.0 L 161.0,100.0 L 161.0,86.0 L 161.0,72.0 L 161.0,58.0 L 161.0,44.0 L 161.0,30.0 L 175.0,30.0 L 175.0,44.0 L 175.0,58.0 L 175.0,72.0 L 175.0,86.0 L 175.0,100.0 L 175.0,114.0 L 189.0,114.0 L 189.0,100.0 L 189.0,86.0 L 189.0,72.0 L 189.0,58.0 L 189.0,44.0 L 189.0,30.0 L 203.0,30.0 L 203.0,44.0 L 203.0,58.0 L 203.0,72.0 L 203.0,86.0 L 203.0,100.0 L 203.0,114.0 L 217.0,114.0 L 217.0,100.0 L 217.0,86.0 L 217.0,72.0 L 217.0,58.0 L 217.0,44.0 L 217.0,30.0 L 231.0,30.0 L 231.0,44.0 L 231.0,58.0 L 231.0,72.0 L 231.0,86.0 L 231.0,100.0 L 231.0,114.0 L 245.0,114.0 L 245.0,100.0 L 245.0,86.0 L 245.0,72.0 L 245.0,58.0 L 245.0,44.0 L 245.0,30.0 L 259.0,30.0 L 259.0,44.0 L 259.0,58.0 L 259.0,72.0 L 259.0,86.0 L 259.0,100.0 L 259.0,114.0 L 273.0,114.0 L 273.0,100.0 L 273.0,86.0 L 273.0,72.0 L 273.0,58.0 L 273.0,44.0 L 273.0,30.0 L 287.0,30.0 L 287.0,44.0 L 287.0,58.0 L 287.0,72.0 L 287.0,86.0 L 287.0,100.0 L 287.0,114.0 L 301.0,114.0 L 301.0,100.0 L 301.0,86.0 L 301.0,72.0 L 301.0,58.0 L 301.0,44.0 L 301.0,30.0 L 315.0,30.0 L 315.0,44.0 L 315.0,58.0 L 315.0,72.0 L 315.0,86.0 L 315.0,100.0 L 315.0,114.0 L 329.0,114.0 L 329.0,100.0 L 329.0,86.0 L 329.0,72.0 L 329.0,58.0 L 329.0,44.0 L 329.0,30.0 L 343.0,30.0 L 343.0,44.0 L 343.0,58.0 L 343.0,72.0 L 343.0,86.0 L 343.0,100.0 L 343.0,114.0 L 357.0,114.0 L 357.0,100.0 L 357.0,86.0 L 357.0,72.0 L 357.0,58.0 L 357.0,44.0 L 357.0,30.0 L 371.0,30.0 L 371.0,44.0 L 371.0,58.0 L 371.0,72.0 L 371.0,86.0 L 371.0,100.0 L 371.0,114.0 L 385.0,114.0 L 385.0,100.0 L 385.0,86.0 L 385.0,72.0 L 385.0,58.0 L 385.0,44.0 L 385.0,30.0 L 399.0,30.0 L 399.0,44.0 L 399.0,58.0 L 399.0,72.0 L 399.0,86.0 L 399.0,100.0 L 399.0,114.0 L 413.0,114.0 L 413.0,100.0 L 413.0,86.0 L 413.0,72.0 L 413.0,58.0 L 413.0,44.0 L 413.0,30.0 L 427.0,30.0 L 427.0,44.0 L 427.0,58.0 L 427.0,72.0 L 427.0,86.0 L 427.0,100.0 L 427.0,114.0 L 441.0,114.0 L 441.0,100.0 L 441.0,86.0 L 441.0,72.0 L 441.0,58.0 L 441.0,44.0 L 441.0,30.0 L 455.0,30.0 L 455.0,44.0 L 455.0,58.0 L 455.0,72.0 L 455.0,86.0 L 455.0,100.0 L 455.0,114.0 L 469.0,114.0 L 469.0,100.0 L 469.0,86.0 L 469.0,72.0 L 469.0,58.0 L 469.0,44.0 L 469.0,30.0 L 483.0,30.0 L 483.0,44.0 L 483.0,58.0 L 483.0,72.0 L 483.0,86.0 L 483.0,100.0 L 483.0,114.0 L 497.0,114.0 L 497.0,100.0 L 497.0,86.0 L 497.0,72.0 L 497.0,58.0 L 497.0,44.0 L 497.0,30.0 L 511.0,30.0 L 511.0,44.0 L 511.0,58.0 L 511.0,72.0 L 511.0,86.0 L 511.0,100.0 L 511.0,114.0 L 525.0,114.0 L 525.0,100.0 L 525.0,86.0 L 525.0,72.0 L 525.0,58.0 L 525.0,44.0 L 525.0,30.0 L 539.0,30.0 L 539.0,44.0 L 539.0,58.0 L 539.0,72.0 L 539.0,86.0 L 539.0,100.0 L 539.0,114.0 L 553.0,114.0 L 553.0,100.0 L 553.0,86.0 L 553.0,72.0 L 553.0,58.0 L 553.0,44.0 L 553.0,30.0 L 567.0,30.0 L 567.0,44.0 L 567.0,58.0 L 567.0,72.0 L 567.0,86.0 L 567.0,100.0 L 567.0,114.0 L 581.0,114.0 L 581.0,100.0 L 581.0,86.0 L 581.0,72.0 L 581.0,58.0 L 581.0,44.0 L 581.0,30.0 L 595.0,30.0 L 595.0,44.0 L 595.0,58.0 L 595.0,72.0 L 595.0,86.0 L 595.0,100.0 L 595.0,114.0 L 609.0,114.0 L 609.0,100.0 L 609.0,86.0 L 609.0,72.0 L 609.0,58.0 L 609.0,44.0 L 609.0,30.0 L 623.0,30.0 L 623.0,44.0 L 623.0,58.0 L 623.0,72.0 L 623.0,86.0 L 623.0,100.0 L 623.0,114.0 L 637.0,114.0 L 637.0,100.0 L 637.0,86.0 L 637.0,72.0 L 637.0,58.0 L 637.0,44.0 L 637.0,30.0 L 651.0,30.0 L 651.0,44.0 L 651.0,58.0 L 651.0,72.0 L 651.0,86.0 L 651.0,100.0 L 651.0,114.0 L 665.0,114.0 L 665.0,100.0 L 665.0,86.0 L 665.0,72.0 L 665.0,58.0 L 665.0,44.0 L 665.0,30.0 L 679.0,30.0 L 679.0,44.0 L 679.0,58.0 L 679.0,72.0 L 679.0,86.0 L 679.0,100.0 L 679.0,114.0 L 693.0,114.0 L 693.0,100.0 L 693.0,86.0 L 693.0,72.0 L 693.0,58.0 L 693.0,44.0 L 693.0,30.0 L 707.0,30.0 L 707.0,44.0 L 707.0,58.0 L 707.0,72.0 L 707.0,86.0 L 707.0,100.0 L 707.0,114.0 L 721.0,114.0 L 721.0,100.0 L 721.0,86.0 L 721.0,72.0 L 721.0,58.0 L 721.0,44.0 L 721.0,30.0" fill="none" stroke="none" />
 
-<!-- Animated Snake Elements -->
 <g filter="url(#glow)">
-  <circle r="5.5" fill="#00f5ff">
-    <animateMotion dur="18s" repeatCount="indefinite" rotate="auto">
+  <circle r="4.5" fill="#ff2a6d">
+    <animateMotion dur="22s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
   </circle>
-  <circle r="4.5" fill="#38ef7d">
-    <animateMotion dur="18s" begin="-0.12s" repeatCount="indefinite" rotate="auto">
+  <circle r="4" fill="#e30b5c">
+    <animateMotion dur="22s" begin="-0.12s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
   </circle>
-  <circle r="4" fill="#7928ca">
-    <animateMotion dur="18s" begin="-0.24s" repeatCount="indefinite" rotate="auto">
+  <circle r="3.5" fill="#c51a4a">
+    <animateMotion dur="22s" begin="-0.24s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
   </circle>
-  <circle r="3.5" fill="#ff0055">
-    <animateMotion dur="18s" begin="-0.36s" repeatCount="indefinite" rotate="auto">
-      <mpath href="#snake-track"/>
-    </animateMotion>
-  </circle>
-  <circle r="3" fill="#ff0055">
-    <animateMotion dur="18s" begin="-0.48s" repeatCount="indefinite" rotate="auto">
+  <circle r="3" fill="#8a1236">
+    <animateMotion dur="22s" begin="-0.36s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
   </circle>
 </g>
 
-<text x="35" y="160" class="legend">Less</text>
-<rect x="65" y="152" width="9" height="9" class="grid-bg" />
-<rect x="78" y="152" width="9" height="9" class="lvl-1" />
-<rect x="91" y="152" width="9" height="9" class="lvl-2" />
-<rect x="104" y="152" width="9" height="9" class="lvl-3" />
-<rect x="117" y="152" width="9" height="9" class="lvl-4" />
-<text x="133" y="160" class="legend">More [Eating Commits...]</text>
-
-<text x="680" y="160" class="legend" fill="#00f5ff">⚡ CYBERPUNK_GRID</text>
+<text x="30" y="143" class="legend">Less</text>
+<rect x="60" y="134" width="9" height="9" class="grid-bg" />
+<rect x="73" y="134" width="9" height="9" class="lvl-1" />
+<rect x="86" y="134" width="9" height="9" class="lvl-2" />
+<rect x="99" y="134" width="9" height="9" class="lvl-3" />
+<rect x="112" y="134" width="9" height="9" class="lvl-4" />
+<text x="128" y="143" class="legend">More</text>
 </svg>
