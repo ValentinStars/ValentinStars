@@ -1,23 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 160" width="840" height="160">
 <defs>
-  <linearGradient id="snake-body-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" stop-color="#e30b5c"/>
-    <stop offset="100%" stop-color="#8a1236"/>
-  </linearGradient>
-  <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-    <feGaussianBlur stdDeviation="1.5" result="blur" />
-    <feComposite in="SourceGraphic" in2="blur" operator="over" />
-  </filter>
+  <style>
+    .bg { fill: #0d1117; rx: 6px; }
+    .grid-bg { fill: #161b22; rx: 2px; }
+    .lvl-1 { fill: #21262d; rx: 2px; }
+    .lvl-2 { fill: #4a1525; rx: 2px; }
+    .lvl-3 { fill: #8a1236; rx: 2px; }
+    .lvl-4 { fill: #c51a4a; rx: 2px; }
+    .legend { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace, sans-serif; font-size: 10px; }
+  </style>
 </defs>
-<style>
-  .bg { fill: #0d1117; rx: 6px; }
-  .grid-bg { fill: #161b22; rx: 2px; }
-  .lvl-1 { fill: #21262d; rx: 2px; }
-  .lvl-2 { fill: #4a1525; rx: 2px; }
-  .lvl-3 { fill: #8a1236; rx: 2px; }
-  .lvl-4 { fill: #c51a4a; rx: 2px; }
-  .legend { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace, sans-serif; font-size: 10px; }
-</style>
+
 <rect width="100%" height="100%" class="bg" stroke="#30363d" stroke-width="1" rx="6" />
 
 <rect x="30" y="25" width="10" height="10" class="lvl-1"/>
@@ -373,27 +366,38 @@
 
 <path id="snake-track" d="M 35.0,30.0 L 35.0,44.0 L 35.0,58.0 L 35.0,72.0 L 35.0,86.0 L 35.0,100.0 L 35.0,114.0 L 49.0,114.0 L 49.0,100.0 L 49.0,86.0 L 49.0,72.0 L 49.0,58.0 L 49.0,44.0 L 49.0,30.0 L 63.0,30.0 L 63.0,44.0 L 63.0,58.0 L 63.0,72.0 L 63.0,86.0 L 63.0,100.0 L 63.0,114.0 L 77.0,114.0 L 77.0,100.0 L 77.0,86.0 L 77.0,72.0 L 77.0,58.0 L 77.0,44.0 L 77.0,30.0 L 91.0,30.0 L 91.0,44.0 L 91.0,58.0 L 91.0,72.0 L 91.0,86.0 L 91.0,100.0 L 91.0,114.0 L 105.0,114.0 L 105.0,100.0 L 105.0,86.0 L 105.0,72.0 L 105.0,58.0 L 105.0,44.0 L 105.0,30.0 L 119.0,30.0 L 119.0,44.0 L 119.0,58.0 L 119.0,72.0 L 119.0,86.0 L 119.0,100.0 L 119.0,114.0 L 133.0,114.0 L 133.0,100.0 L 133.0,86.0 L 133.0,72.0 L 133.0,58.0 L 133.0,44.0 L 133.0,30.0 L 147.0,30.0 L 147.0,44.0 L 147.0,58.0 L 147.0,72.0 L 147.0,86.0 L 147.0,100.0 L 147.0,114.0 L 161.0,114.0 L 161.0,100.0 L 161.0,86.0 L 161.0,72.0 L 161.0,58.0 L 161.0,44.0 L 161.0,30.0 L 175.0,30.0 L 175.0,44.0 L 175.0,58.0 L 175.0,72.0 L 175.0,86.0 L 175.0,100.0 L 175.0,114.0 L 189.0,114.0 L 189.0,100.0 L 189.0,86.0 L 189.0,72.0 L 189.0,58.0 L 189.0,44.0 L 189.0,30.0 L 203.0,30.0 L 203.0,44.0 L 203.0,58.0 L 203.0,72.0 L 203.0,86.0 L 203.0,100.0 L 203.0,114.0 L 217.0,114.0 L 217.0,100.0 L 217.0,86.0 L 217.0,72.0 L 217.0,58.0 L 217.0,44.0 L 217.0,30.0 L 231.0,30.0 L 231.0,44.0 L 231.0,58.0 L 231.0,72.0 L 231.0,86.0 L 231.0,100.0 L 231.0,114.0 L 245.0,114.0 L 245.0,100.0 L 245.0,86.0 L 245.0,72.0 L 245.0,58.0 L 245.0,44.0 L 245.0,30.0 L 259.0,30.0 L 259.0,44.0 L 259.0,58.0 L 259.0,72.0 L 259.0,86.0 L 259.0,100.0 L 259.0,114.0 L 273.0,114.0 L 273.0,100.0 L 273.0,86.0 L 273.0,72.0 L 273.0,58.0 L 273.0,44.0 L 273.0,30.0 L 287.0,30.0 L 287.0,44.0 L 287.0,58.0 L 287.0,72.0 L 287.0,86.0 L 287.0,100.0 L 287.0,114.0 L 301.0,114.0 L 301.0,100.0 L 301.0,86.0 L 301.0,72.0 L 301.0,58.0 L 301.0,44.0 L 301.0,30.0 L 315.0,30.0 L 315.0,44.0 L 315.0,58.0 L 315.0,72.0 L 315.0,86.0 L 315.0,100.0 L 315.0,114.0 L 329.0,114.0 L 329.0,100.0 L 329.0,86.0 L 329.0,72.0 L 329.0,58.0 L 329.0,44.0 L 329.0,30.0 L 343.0,30.0 L 343.0,44.0 L 343.0,58.0 L 343.0,72.0 L 343.0,86.0 L 343.0,100.0 L 343.0,114.0 L 357.0,114.0 L 357.0,100.0 L 357.0,86.0 L 357.0,72.0 L 357.0,58.0 L 357.0,44.0 L 357.0,30.0 L 371.0,30.0 L 371.0,44.0 L 371.0,58.0 L 371.0,72.0 L 371.0,86.0 L 371.0,100.0 L 371.0,114.0 L 385.0,114.0 L 385.0,100.0 L 385.0,86.0 L 385.0,72.0 L 385.0,58.0 L 385.0,44.0 L 385.0,30.0 L 399.0,30.0 L 399.0,44.0 L 399.0,58.0 L 399.0,72.0 L 399.0,86.0 L 399.0,100.0 L 399.0,114.0 L 413.0,114.0 L 413.0,100.0 L 413.0,86.0 L 413.0,72.0 L 413.0,58.0 L 413.0,44.0 L 413.0,30.0 L 427.0,30.0 L 427.0,44.0 L 427.0,58.0 L 427.0,72.0 L 427.0,86.0 L 427.0,100.0 L 427.0,114.0 L 441.0,114.0 L 441.0,100.0 L 441.0,86.0 L 441.0,72.0 L 441.0,58.0 L 441.0,44.0 L 441.0,30.0 L 455.0,30.0 L 455.0,44.0 L 455.0,58.0 L 455.0,72.0 L 455.0,86.0 L 455.0,100.0 L 455.0,114.0 L 469.0,114.0 L 469.0,100.0 L 469.0,86.0 L 469.0,72.0 L 469.0,58.0 L 469.0,44.0 L 469.0,30.0 L 483.0,30.0 L 483.0,44.0 L 483.0,58.0 L 483.0,72.0 L 483.0,86.0 L 483.0,100.0 L 483.0,114.0 L 497.0,114.0 L 497.0,100.0 L 497.0,86.0 L 497.0,72.0 L 497.0,58.0 L 497.0,44.0 L 497.0,30.0 L 511.0,30.0 L 511.0,44.0 L 511.0,58.0 L 511.0,72.0 L 511.0,86.0 L 511.0,100.0 L 511.0,114.0 L 525.0,114.0 L 525.0,100.0 L 525.0,86.0 L 525.0,72.0 L 525.0,58.0 L 525.0,44.0 L 525.0,30.0 L 539.0,30.0 L 539.0,44.0 L 539.0,58.0 L 539.0,72.0 L 539.0,86.0 L 539.0,100.0 L 539.0,114.0 L 553.0,114.0 L 553.0,100.0 L 553.0,86.0 L 553.0,72.0 L 553.0,58.0 L 553.0,44.0 L 553.0,30.0 L 567.0,30.0 L 567.0,44.0 L 567.0,58.0 L 567.0,72.0 L 567.0,86.0 L 567.0,100.0 L 567.0,114.0 L 581.0,114.0 L 581.0,100.0 L 581.0,86.0 L 581.0,72.0 L 581.0,58.0 L 581.0,44.0 L 581.0,30.0 L 595.0,30.0 L 595.0,44.0 L 595.0,58.0 L 595.0,72.0 L 595.0,86.0 L 595.0,100.0 L 595.0,114.0 L 609.0,114.0 L 609.0,100.0 L 609.0,86.0 L 609.0,72.0 L 609.0,58.0 L 609.0,44.0 L 609.0,30.0 L 623.0,30.0 L 623.0,44.0 L 623.0,58.0 L 623.0,72.0 L 623.0,86.0 L 623.0,100.0 L 623.0,114.0 L 637.0,114.0 L 637.0,100.0 L 637.0,86.0 L 637.0,72.0 L 637.0,58.0 L 637.0,44.0 L 637.0,30.0 L 651.0,30.0 L 651.0,44.0 L 651.0,58.0 L 651.0,72.0 L 651.0,86.0 L 651.0,100.0 L 651.0,114.0 L 665.0,114.0 L 665.0,100.0 L 665.0,86.0 L 665.0,72.0 L 665.0,58.0 L 665.0,44.0 L 665.0,30.0 L 679.0,30.0 L 679.0,44.0 L 679.0,58.0 L 679.0,72.0 L 679.0,86.0 L 679.0,100.0 L 679.0,114.0 L 693.0,114.0 L 693.0,100.0 L 693.0,86.0 L 693.0,72.0 L 693.0,58.0 L 693.0,44.0 L 693.0,30.0 L 707.0,30.0 L 707.0,44.0 L 707.0,58.0 L 707.0,72.0 L 707.0,86.0 L 707.0,100.0 L 707.0,114.0 L 721.0,114.0 L 721.0,100.0 L 721.0,86.0 L 721.0,72.0 L 721.0,58.0 L 721.0,44.0 L 721.0,30.0" fill="none" stroke="none" />
 
-<g filter="url(#glow)">
-  <circle r="4.5" fill="#ff2a6d">
-    <animateMotion dur="22s" repeatCount="indefinite" rotate="auto">
+<!-- Square Cell Snake -->
+<g>
+  <!-- Tail segment 4 -->
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#4a1525">
+    <animateMotion dur="24s" begin="-0.48s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
-  </circle>
-  <circle r="4" fill="#e30b5c">
-    <animateMotion dur="22s" begin="-0.12s" repeatCount="indefinite" rotate="auto">
+  </rect>
+  <!-- Tail segment 3 -->
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#8a1236">
+    <animateMotion dur="24s" begin="-0.36s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
-  </circle>
-  <circle r="3.5" fill="#c51a4a">
-    <animateMotion dur="22s" begin="-0.24s" repeatCount="indefinite" rotate="auto">
+  </rect>
+  <!-- Body segment 2 -->
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#c51a4a">
+    <animateMotion dur="24s" begin="-0.24s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
-  </circle>
-  <circle r="3" fill="#8a1236">
-    <animateMotion dur="22s" begin="-0.36s" repeatCount="indefinite" rotate="auto">
+  </rect>
+  <!-- Body segment 1 -->
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#e30b5c">
+    <animateMotion dur="24s" begin="-0.12s" repeatCount="indefinite" rotate="auto">
       <mpath href="#snake-track"/>
     </animateMotion>
-  </circle>
+  </rect>
+  <!-- Head -->
+  <rect x="-5" y="-5" width="10" height="10" rx="2" fill="#ff2a6d" stroke="#ffffff" stroke-width="0.75">
+    <animateMotion dur="24s" begin="0s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#snake-track"/>
+    </animateMotion>
+  </rect>
 </g>
 
 <text x="30" y="143" class="legend">Less</text>

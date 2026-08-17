@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=161b22,21262d,c51a4a&height=150&section=header&text=VALENTIN%20STARS&fontSize=38&fontColor=ffffff&fontAlignY=38" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=161b22,21262d,8a1236,c51a4a&height=180&section=header&text=VALENTIN%20STARS&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Low-Level%20Hacker%20%7C%20Embedded%20%26%20Kernel%20Dev%20%7C%20Full-Stack&descAlignY=58&descSize=16&descColor=e30b5c" />
 
-<!-- Clean Typing SVGs -->
+<!-- Typing Text Header -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1200&color=E30B5C&center=true&vCenter=true&width=750&height=50&lines=Low+Level+Hacker+%26+FullStack+Developer;root%40valentin-node%3A~%23+neofetch;Come+to+the+dark+side%2C+we+have+cookies+%3A%3E" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1200&color=E30B5C&center=true&vCenter=true&width=750&height=50&lines=Low+Level+Hacker+%26+FullStack+Developer;valentin%40VSTThinkPad%3A~%24+fastfetch;Come+to+the+dark+side%2C+we+have+cookies+%3A%3E" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -42,31 +42,31 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Terminal HUD" />
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal" />
 </div>
 
 </details>
 
 ---
 
-### 🛰️ Проекты
+### 🛰️ Featured Projects
 
-| Проект | Стек | Описание | Статус |
+| Project | Stack | Description | Status |
 | :--- | :--- | :--- | :---: |
-| [⚡ **VSTOS**](https://github.com/ValentinStars/VSTOS) | `C++` `x86 ASM` `Grub` | Собственная операционная система с нуля на чистом железе | ![Booting](https://img.shields.io/badge/BOOTING-c51a4a?style=flat-square&labelColor=0d1117) |
-| [📱 **odin_gui_linux**](https://github.com/ValentinStars/odin_gui_linux) | `Python` `Qt / GUI` | Linux GUI приложение для прошивки устройств Samsung через Odin | ![Active](https://img.shields.io/badge/ACTIVE-3fb950?style=flat-square&labelColor=0d1117) |
-| [🔒 **VSTChat**](https://github.com/ValentinStars/VSTChat) | `C++` `Crypto` `CLI` | Консольная соцсеть с акцентом на сквозное шифрование | ![Secure](https://img.shields.io/badge/SECURE-8a1236?style=flat-square&labelColor=0d1117) |
-| [🐧 **ESP-NIX**](https://github.com/ValentinStars/ESP-NIX) | `ESP8266` `Embedded OS` | Linux-подобная операционная система прямо на микроконтроллере ESP8266 | ![Stable](https://img.shields.io/badge/STABLE-21262d?style=flat-square&labelColor=0d1117) |
-| [💾 **ESPFlash**](https://github.com/ValentinStars/ESPFlash) | `C++` `ESP32-S3` | Эмулятор USB-накопителя (Mass Storage) на ESP32-S3 | ![Mounted](https://img.shields.io/badge/MOUNTED-3fb950?style=flat-square&labelColor=0d1117) |
-| [💣 **ardubomb**](https://github.com/ValentinStars/ardubomb) | `C++` `Arduino` | Прошивка таймера и симулятора разминирования | ![Defused](https://img.shields.io/badge/DEFUSED-21262d?style=flat-square&labelColor=0d1117) |
-| [🕒 **CyberClock**](https://github.com/ValentinStars/CyberClock) | `C++` `ESP8266` | Настольные часы на ESP8266 с веб-интерфейсом | ![Online](https://img.shields.io/badge/ONLINE-c51a4a?style=flat-square&labelColor=0d1117) |
+| [⚡ **VSTOS**](https://github.com/ValentinStars/VSTOS) | `C++` `x86 ASM` `Grub` | Custom bare-metal operating system built from scratch | ![Booting](https://img.shields.io/badge/BOOTING-c51a4a?style=flat-square&labelColor=0d1117) |
+| [📱 **odin_gui_linux**](https://github.com/ValentinStars/odin_gui_linux) | `Python` `Qt / GUI` | Linux GUI utility for flashing Samsung devices via Odin | ![Active](https://img.shields.io/badge/ACTIVE-3fb950?style=flat-square&labelColor=0d1117) |
+| [🔒 **VSTChat**](https://github.com/ValentinStars/VSTChat) | `C++` `Crypto` `CLI` | Terminal social network focused on end-to-end encryption | ![Secure](https://img.shields.io/badge/SECURE-8a1236?style=flat-square&labelColor=0d1117) |
+| [🐧 **ESP-NIX**](https://github.com/ValentinStars/ESP-NIX) | `ESP8266` `Embedded OS` | Unix-like operating system running directly on ESP8266 | ![Stable](https://img.shields.io/badge/STABLE-21262d?style=flat-square&labelColor=0d1117) |
+| [💾 **ESPFlash**](https://github.com/ValentinStars/ESPFlash) | `C++` `ESP32-S3` | Native USB Mass Storage drive emulation from ESP32-S3 | ![Mounted](https://img.shields.io/badge/MOUNTED-3fb950?style=flat-square&labelColor=0d1117) |
+| [💣 **ardubomb**](https://github.com/ValentinStars/ardubomb) | `C++` `Arduino` | Interactive countdown timer and defusal simulator firmware | ![Defused](https://img.shields.io/badge/DEFUSED-21262d?style=flat-square&labelColor=0d1117) |
+| [🕒 **CyberClock**](https://github.com/ValentinStars/CyberClock) | `C++` `ESP8266` | Aesthetic ESP8266 table clock with web interface and sync | ![Online](https://img.shields.io/badge/ONLINE-c51a4a?style=flat-square&labelColor=0d1117) |
 
 ---
 
-### 🛠️ Опыт
+### 🛠️ Experience & Stack
 
 <details open>
-<summary><b>Опыт</b></summary>
+<summary><b>Loadout Matrix</b></summary>
 <br/>
 
 <table>
@@ -84,7 +84,7 @@
     </td>
   </tr>
   <tr>
-    <td width="25%" align="center"><b>Hardware & Silicon</b></td>
+    <td width="25%" align="center"><b>Hardware & Embedded</b></td>
     <td>
       <img src="https://img.shields.io/badge/ESP32%20%2F%20S3-21262d?style=for-the-badge&logo=espressif&logoColor=E7352C" />
       <img src="https://img.shields.io/badge/ESP8266-21262d?style=for-the-badge&logo=espressif&logoColor=E7352C" />
@@ -95,7 +95,7 @@
     </td>
   </tr>
   <tr>
-    <td width="25%" align="center"><b>Cybersec & Binary Analysis</b></td>
+    <td width="25%" align="center"><b>Cybersec & Analysis</b></td>
     <td>
       <img src="https://img.shields.io/badge/Ghidra-21262d?style=for-the-badge&logo=nsa&logoColor=white" />
       <img src="https://img.shields.io/badge/Wireshark-21262d?style=for-the-badge&logo=wireshark&logoColor=1679A7" />
@@ -105,7 +105,7 @@
     </td>
   </tr>
   <tr>
-    <td width="25%" align="center"><b>Scripting & Tooling</b></td>
+    <td width="25%" align="center"><b>Languages & Tooling</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-21262d?style=for-the-badge&logo=python&logoColor=3776AB" />
       <img src="https://img.shields.io/badge/Bash%20%2F%20Zsh-21262d?style=for-the-badge&logo=gnu-bash&logoColor=4EAA25" />
@@ -129,7 +129,7 @@
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ValentinStars&theme=github_dark" alt="Profile Details" width="100%" />
       </td>
       <td width="50%" align="center">
-        <img src="https://streak-stats.demolab.com/?user=ValentinStars&theme=dark&background=0D1117&border=30363D&stroke=C51A4A&ring=C51A4A&fire=C51A4A&currStreakNum=C51A4A&sideNums=C9D1D9&sideLabels=8B949E" alt="Streak Stats" width="100%" />
+        <img src="https://streak-stats.demolab.com?user=ValentinStars&theme=dark&background=0D1117&border=30363D&stroke=C51A4A&ring=C51A4A&fire=C51A4A&currStreakNum=C51A4A" alt="Streak Stats" width="100%" />
       </td>
     </tr>
     <tr>
