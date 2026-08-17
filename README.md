@@ -194,7 +194,7 @@
 ### 🐍 Contribution Grid Marauder
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ValentinStars/ValentinStars/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="100%" />
+  <img src="./assets/github-contribution-grid-snake-dark.svg" alt="Snake contribution animation" width="100%" />
 </div>
 
 ---
