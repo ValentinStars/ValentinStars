@@ -26,18 +26,6 @@
     <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white" />
     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   </p>
-</div><!-- Projects Section --><div align="center">
-  <h2>
-    <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="25px"> Stuff I’ve Built
-  </h2>
-  <ul align="left">
-    <li><strong>BIOS/Flash Dumper Toolchain:</strong> Custom tools to dump/edit SPI flash chips via microcontrollers.</li>
-    <li><strong>Assembly Bootloader Experiments:</strong> Writing bootloaders from scratch to understand x86 BIOS.</li>
-    <li><strong>Super I/O Prober:</strong> A script to sniff/decode Super I/O registers for retro hardware.</li>
-    <li><strong>Multi-Platform Bot Framework:</strong> Shared bot core for Discord, Telegram, WhatsApp.</li>
-    <li><strong>Arduino/ESP32 Projects:</strong> A lot of project on Arduino and ESP-IDF.</li>
-    <li><strong>VST OS:</strong> An operating system based on Arch Linux with native Android support, particularly for the Arm architecture.</li>
-  </ul>
 </div><!-- Learning Section --><div align="center">
   <h2>
     <img src="https://i.giphy.com/3o7abKhOpu0NwenH3O.webp" width="25px"> Learning at the moment 
