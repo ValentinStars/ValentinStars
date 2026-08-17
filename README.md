@@ -54,59 +54,28 @@
 <br/>
 
 <div align="center">
-  <table width="100%">
+  <table border="0">
     <tr>
-      <!-- Left side: Org branding -->
-      <td width="38%" align="center" valign="middle">
+      <!-- Left side: Badge / Logo -->
+      <td width="90" align="center" valign="middle">
         <a href="https://github.com/Palka-Community" target="_blank">
-          <img src="https://avatars.githubusercontent.com/u/317580538?v=4" width="76" height="76" style="border-radius: 12px;" alt="Palka Community" />
+          <img src="https://avatars.githubusercontent.com/u/317580538?v=4" width="80" height="80" style="border-radius: 12px;" alt="Palka Community" />
         </a>
-        <br/>
-        <b><a href="https://github.com/Palka-Community" target="_blank">Palka Community</a></b>
-        <br/>
-        <sub><i>палка комунити типот сакс</i></sub>
-        <br/><br/>
-        <img src="https://img.shields.io/badge/Public_Repos-1-c51a4a?style=flat-square&labelColor=161b22" />
-        <img src="https://img.shields.io/badge/Members-6-e30b5c?style=flat-square&labelColor=161b22" />
       </td>
-
-      <!-- Right side: Members & Details -->
-      <td width="62%" valign="middle">
-        <p><b>👥 Members &amp; Crew</b></p>
-        <p>
-          <a href="https://github.com/ValentinStars" target="_blank" title="ValentinStars">
-            <img src="https://avatars.githubusercontent.com/u/168294855?v=4" width="36" height="36" style="border-radius: 50%;" alt="ValentinStars" />
-          </a>
-          <a href="https://github.com/TheMiner203" target="_blank" title="TheMiner203">
-            <img src="https://avatars.githubusercontent.com/u/84179454?v=4" width="36" height="36" style="border-radius: 50%;" alt="TheMiner203" />
-          </a>
-          <a href="https://github.com/Acidka-ai" target="_blank" title="Acidka-ai">
-            <img src="https://avatars.githubusercontent.com/u/190882788?v=4" width="36" height="36" style="border-radius: 50%;" alt="Acidka-ai" />
-          </a>
-          <a href="https://github.com/GUNNA-at" target="_blank" title="GUNNA-at">
-            <img src="https://avatars.githubusercontent.com/u/192455952?v=4" width="36" height="36" style="border-radius: 50%;" alt="GUNNA-at" />
-          </a>
-          <a href="https://github.com/netw4lk3r" target="_blank" title="netw4lk3r">
-            <img src="https://avatars.githubusercontent.com/u/225464374?v=4" width="36" height="36" style="border-radius: 50%;" alt="netw4lk3r" />
-          </a>
-          <a href="https://github.com/Pontropy" target="_blank" title="Pontropy">
-            <img src="https://avatars.githubusercontent.com/u/206949461?v=4" width="36" height="36" style="border-radius: 50%;" alt="Pontropy" />
-          </a>
-        </p>
-        <p>
-          <sub>
-            <a href="https://github.com/ValentinStars">@ValentinStars</a> · 
-            <a href="https://github.com/TheMiner203">@TheMiner203</a> · 
-            <a href="https://github.com/Acidka-ai">@Acidka-ai</a> · 
-            <a href="https://github.com/GUNNA-at">@GUNNA-at</a> · 
-            <a href="https://github.com/netw4lk3r">@netw4lk3r</a> · 
-            <a href="https://github.com/Pontropy">@Pontropy</a>
-          </sub>
-        </p>
-        <p>
-          <a href="https://github.com/Palka-Community" target="_blank">
-            <img src="https://img.shields.io/badge/Open_Organization_%E2%86%92-21262d?style=for-the-badge&logo=github&logoColor=e30b5c&labelColor=0d1117" alt="Open Organization" />
-          </a>
+      <!-- Right side: Title, Description, Repos, Members -->
+      <td align="left" valign="middle">
+        <h3 style="margin: 0;"><a href="https://github.com/Palka-Community" target="_blank">Palka Community</a></h3>
+        <p style="margin: 2px 0 6px 0;"><sub><i>палка комунити типот сакс</i></sub></p>
+        <p style="margin: 0;">
+          <img src="https://img.shields.io/badge/Public_Repos-1-c51a4a?style=flat-square&labelColor=161b22" />
+          <img src="https://img.shields.io/badge/Members-6-e30b5c?style=flat-square&labelColor=161b22" />
+          &nbsp;&nbsp;
+          <a href="https://github.com/ValentinStars" target="_blank" title="ValentinStars"><img src="https://avatars.githubusercontent.com/u/168294855?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="ValentinStars" /></a>
+          <a href="https://github.com/TheMiner203" target="_blank" title="TheMiner203"><img src="https://avatars.githubusercontent.com/u/84179454?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="TheMiner203" /></a>
+          <a href="https://github.com/Acidka-ai" target="_blank" title="Acidka-ai"><img src="https://avatars.githubusercontent.com/u/190882788?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="Acidka-ai" /></a>
+          <a href="https://github.com/GUNNA-at" target="_blank" title="GUNNA-at"><img src="https://avatars.githubusercontent.com/u/192455952?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="GUNNA-at" /></a>
+          <a href="https://github.com/netw4lk3r" target="_blank" title="netw4lk3r"><img src="https://avatars.githubusercontent.com/u/225464374?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="netw4lk3r" /></a>
+          <a href="https://github.com/Pontropy" target="_blank" title="Pontropy"><img src="https://avatars.githubusercontent.com/u/206949461?v=4" width="26" height="26" style="border-radius: 50%; vertical-align: middle;" alt="Pontropy" /></a>
         </p>
       </td>
     </tr>
