@@ -1,0 +1,35 @@
+<svg width="854" height="95" viewBox="0 0 854 95" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footer-grad-1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e30b5c" />
+      <stop offset="40%" stop-color="#8a1236" />
+      <stop offset="80%" stop-color="#2d0b17" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="footer-grad-2" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a6d" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#c51a4a" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#0d1117" />
+
+  <path fill="url(#footer-grad-1)" opacity="0.85">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="
+        M0 95 L0 30 Q 213.5 60 427 30 T 854 45 L 854 95 Z;
+        M0 95 L0 45 Q 213.5 20 427 45 T 854 25 L 854 95 Z;
+        M0 95 L0 30 Q 213.5 60 427 30 T 854 45 L 854 95 Z
+      " />
+  </path>
+
+  <path fill="url(#footer-grad-2)" opacity="0.6">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+      values="
+        M0 95 L0 40 Q 213.5 15 427 45 T 854 30 L 854 95 Z;
+        M0 95 L0 25 Q 213.5 55 427 25 T 854 45 L 854 95 Z;
+        M0 95 L0 40 Q 213.5 15 427 45 T 854 30 L 854 95 Z
+      " />
+  </path>
+</svg>

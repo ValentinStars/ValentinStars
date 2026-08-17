@@ -1,0 +1,69 @@
+<svg width="854" height="170" viewBox="0 0 854 170" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wave-grad-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="35%" stop-color="#2d0b17" />
+      <stop offset="70%" stop-color="#8a1236" />
+      <stop offset="100%" stop-color="#e30b5c" />
+    </linearGradient>
+    <linearGradient id="wave-grad-2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a6d" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#c51a4a" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="60%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#ffccd7" />
+    </linearGradient>
+    <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 42px;
+      font-weight: 800;
+      letter-spacing: 3px;
+      fill: url(#text-grad);
+    }
+    .sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      fill: #ff608c;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="#0d1117" />
+
+  <!-- Animated Wave Layer 1 -->
+  <path fill="url(#wave-grad-1)" opacity="0.85">
+    <animate attributeName="d" dur="14s" repeatCount="indefinite"
+      values="
+        M0 0 L0 110 Q 213.5 150 427 120 T 854 130 L 854 0 Z;
+        M0 0 L0 135 Q 213.5 110 427 135 T 854 115 L 854 0 Z;
+        M0 0 L0 110 Q 213.5 150 427 120 T 854 130 L 854 0 Z
+      " />
+  </path>
+
+  <!-- Animated Wave Layer 2 -->
+  <path fill="url(#wave-grad-2)" opacity="0.65">
+    <animate attributeName="d" dur="18s" repeatCount="indefinite"
+      values="
+        M0 0 L0 125 Q 213.5 95 427 130 T 854 110 L 854 0 Z;
+        M0 0 L0 105 Q 213.5 145 427 110 T 854 135 L 854 0 Z;
+        M0 0 L0 125 Q 213.5 95 427 130 T 854 110 L 854 0 Z
+      " />
+  </path>
+
+  <!-- Header Content -->
+  <g filter="url(#text-glow)">
+    <text x="50%" y="62" text-anchor="middle" class="title">VALENTIN STARS</text>
+  </g>
+  <text x="50%" y="95" text-anchor="middle" class="sub">Low-Level Hacker  |  Embedded &amp; Kernel Dev  |  Full-Stack</text>
+</svg>

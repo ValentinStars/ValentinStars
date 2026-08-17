@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=161b22,21262d,8a1236,c51a4a&height=180&section=header&text=VALENTIN%20STARS&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Low-Level%20Hacker%20%7C%20Embedded%20%26%20Kernel%20Dev%20%7C%20Full-Stack&descAlignY=58&descSize=16&descColor=e30b5c" />
+<!-- Saturated Animated Header Banner -->
+<img width="100%" src="./assets/header.svg" alt="Valentin Stars Header" />
 
 <!-- Typing Text Header -->
 <a href="https://git.io/typing-svg">
@@ -42,7 +42,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Terminal" />
+  <img src="./assets/terminal.svg" width="100%" alt="Terminal Fastfetch" />
 </div>
 
 </details>
@@ -149,7 +149,7 @@
 
 ---
 
-### 🐍 Contribution Grid
+### 🐍 Contributions
 
 <div align="center">
   <img src="./assets/github-contribution-grid-snake-dark.svg" alt="Snake contribution animation" width="100%" />
@@ -165,7 +165,7 @@
 
 <br/>
 
-<!-- Footer Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=161b22,21262d,c51a4a&height=100&section=footer" />
+<!-- Saturated Animated Footer Banner -->
+<img width="100%" src="./assets/footer.svg" alt="Valentin Stars Footer" />
 
 </div>

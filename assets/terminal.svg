@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 890 515" width="890" height="515">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 525" width="900" height="525">
 <defs>
   <style>
     @keyframes blink {
@@ -11,7 +11,7 @@
     .dot-yellow { fill: #ffbd2e; }
     .dot-green { fill: #27c93f; }
     .title { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', monospace, sans-serif; font-size: 11.5px; font-weight: 600; text-anchor: middle; }
-    .code { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; font-size: 11px; }
+    .code { font-family: 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace; font-size: 11.5px; }
     .ascii-text { fill: #e30b5c; font-weight: bold; }
     .key { fill: #ff2a6d; font-weight: bold; }
     .val { fill: #c9d1d9; }
@@ -28,13 +28,13 @@
 </defs>
 
 <rect width="100%" height="100%" class="term-bg" />
-<path d="M 0 8 C 0 3.58 3.58 0 8 0 L 882 0 C 886.42 0 890 3.58 890 8 L 890 30 L 0 30 Z" class="header-bg" />
-<line x1="0" y1="30" x2="890" y2="30" stroke="#30363d" stroke-width="1" />
+<path d="M 0 8 C 0 3.58 3.58 0 8 0 L 892 0 C 896.42 0 900 3.58 900 8 L 900 30 L 0 30 Z" class="header-bg" />
+<line x1="0" y1="30" x2="900" y2="30" stroke="#30363d" stroke-width="1" />
 
 <circle cx="20" cy="15" r="5.5" class="dot-red" />
 <circle cx="36" cy="15" r="5.5" class="dot-yellow" />
 <circle cx="52" cy="15" r="5.5" class="dot-green" />
-<text x="445.0" y="19" class="title">valentin_stars@VSTThinkPad: ~ (konsole)</text>
+<text x="450.0" y="19" class="title">valentin_stars@VSTThinkPad: ~ (konsole)</text>
 
 <g transform="translate(25, 55)" class="code">
   <text x="0" y="0"><tspan class="prompt-user">valentin_stars@VSTThinkPad</tspan><tspan fill="#8b949e">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#8b949e">$</tspan> <tspan fill="#f0f6fc">fastfetch</tspan></text>
@@ -72,13 +72,13 @@
   <text x="0" y="66.0"><tspan class="key">Ker  </tspan><tspan class="val"> Linux 6.12.62-1-VST</tspan></text>
   <text x="0" y="82.5"><tspan class="key">Upt  </tspan><tspan class="val"> 3 hours, 34 mins</tspan></text>
   <text x="0" y="99.0"><tspan class="key">Pkg  </tspan><tspan class="val"> 1877 (pacman), 576 (dpkg), 17 (apk), 25 (flatpak), 3 (snap)</tspan></text>
-  <text x="0" y="123.5"><tspan class="key">Mon  </tspan><tspan class="val"> </tspan><tspan class="bar-bracket">[ </tspan><tspan class="bar-filled"></tspan><tspan class="bar-empty">-</tspan><tspan class="bar-bracket"> ]</tspan><tspan class="val"></tspan></text>
+  <text x="0" y="123.5"><tspan class="key">Mon  </tspan><tspan class="val"> 2480x1640, 240 Hz [Built-in]</tspan></text>
   <text x="0" y="140.0"><tspan class="key">DE   </tspan><tspan class="val"> KDE Plasma 6.5.4</tspan></text>
   <text x="0" y="156.5"><tspan class="key">WM   </tspan><tspan class="val"> KWin (Wayland)</tspan></text>
   <text x="0" y="173.0"><tspan class="key">Sh   </tspan><tspan class="val"> zsh 5.9</tspan></text>
   <text x="0" y="189.5"><tspan class="key">Trm  </tspan><tspan class="val"> konsole 25.12.0</tspan></text>
   <text x="0" y="214.0"><tspan class="key">CPU  </tspan><tspan class="val"> Qualcomm(R) Snapdragon(TM) X Elite (12) @ 4.13 GHz</tspan></text>
-  <text x="0" y="230.5"><tspan class="key">GPU  </tspan><tspan class="val"> </tspan><tspan class="bar-bracket">[ </tspan><tspan class="bar-filled"></tspan><tspan class="bar-empty"></tspan><tspan class="bar-bracket"> ]</tspan><tspan class="val"></tspan></text>
+  <text x="0" y="230.5"><tspan class="key">GPU  </tspan><tspan class="val"> Adreno X1 @ 1.5 GHz [Integrated]</tspan></text>
   <text x="0" y="247.0"><tspan class="key">RAM  </tspan><tspan class="val"> </tspan><tspan class="bar-bracket">[ </tspan><tspan class="bar-filled">■■■</tspan><tspan class="bar-empty">-------</tspan><tspan class="bar-bracket"> ]</tspan><tspan class="val"> 16.29 GiB / 63.38 GiB (27%)</tspan></text>
   <text x="0" y="263.5"><tspan class="key">Swp  </tspan><tspan class="val"> </tspan><tspan class="bar-bracket">[ </tspan><tspan class="bar-filled"></tspan><tspan class="bar-empty">----------</tspan><tspan class="bar-bracket"> ]</tspan><tspan class="val"> Disabled</tspan></text>
   <text x="0" y="280.0"><tspan class="key">Dsk  </tspan><tspan class="val"> </tspan><tspan class="bar-bracket">[ </tspan><tspan class="bar-filled">■■■■■■■■■</tspan><tspan class="bar-empty">-</tspan><tspan class="bar-bracket"> ]</tspan><tspan class="val"> 1872.32 GiB / 1993.19 GiB (90%) - ext4</tspan></text>
@@ -87,7 +87,7 @@
 </g>
 
 <!-- Bottom Prompt -->
-<g transform="translate(25, 485)" class="code">
+<g transform="translate(25, 495)" class="code">
   <text x="0" y="0"><tspan class="prompt-user">valentin_stars@VSTThinkPad</tspan><tspan fill="#8b949e">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#8b949e">$</tspan> <tspan class="cursor">█</tspan></text>
 </g>
 </svg>
