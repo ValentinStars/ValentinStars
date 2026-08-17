@@ -34,11 +34,9 @@
 </div>
 
 ---
-
 ### 💻 Terminal
-
 <details open>
-<summary><b>Terminal</b></summary>
+<summary><b>Specs</b></summary>
 <br/>
 
 <div align="center">
@@ -54,7 +52,7 @@
 | Project | Stack | Description | Status |
 | :--- | :--- | :--- | :---: |
 | [⚡ **VSTOS**](https://github.com/ValentinStars/VSTOS) | `C++` `x86 ASM` `Grub` | Custom bare-metal operating system built from scratch | ![Booting](https://img.shields.io/badge/BOOTING-c51a4a?style=flat-square&labelColor=0d1117) |
-| [📱 **odin_gui_linux**](https://github.com/ValentinStars/odin_gui_linux) | `Python` `Qt / GUI` | Linux GUI utility for flashing Samsung devices via Odin | ![Active](https://img.shields.io/badge/ACTIVE-3fb950?style=flat-square&labelColor=0d1117) |
+| [📱 **odin4.1**](https://github.com/ValentinStars/odin_gui_linux) | `Python` `Qt / GUI` | Linux GUI utility for flashing Samsung devices via Odin | ![Active](https://img.shields.io/badge/ACTIVE-3fb950?style=flat-square&labelColor=0d1117) |
 | [🔒 **VSTChat**](https://github.com/ValentinStars/VSTChat) | `C++` `Crypto` `CLI` | Terminal social network focused on end-to-end encryption | ![Secure](https://img.shields.io/badge/SECURE-8a1236?style=flat-square&labelColor=0d1117) |
 | [🐧 **ESP-NIX**](https://github.com/ValentinStars/ESP-NIX) | `ESP8266` `Embedded OS` | Unix-like operating system running directly on ESP8266 | ![Stable](https://img.shields.io/badge/STABLE-21262d?style=flat-square&labelColor=0d1117) |
 | [💾 **ESPFlash**](https://github.com/ValentinStars/ESPFlash) | `C++` `ESP32-S3` | Native USB Mass Storage drive emulation from ESP32-S3 | ![Mounted](https://img.shields.io/badge/MOUNTED-3fb950?style=flat-square&labelColor=0d1117) |
@@ -66,7 +64,7 @@
 ### 🛠️ Experience & Stack
 
 <details open>
-<summary><b>Loadout Matrix</b></summary>
+<summary><b>Stack</b></summary>
 <br/>
 
 <table>
